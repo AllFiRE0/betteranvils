@@ -69,62 +69,62 @@ class EnchantUtils {
         int CURSE_OF_BINDING_LEVEL = USE_VANILLA_MAX_LEVELS ? 1 : config.getInt("max-level.curse-of-binding");
         int CURSE_OF_VANISHING_LEVEL = USE_VANILLA_MAX_LEVELS ? 1 : config.getInt("max-level.curse-of-vanishing");
 
-        MAX_ENCHANT_LEVELS.put(Enchantment.DAMAGE_ALL, SHARPNESS_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.DAMAGE_UNDEAD, SMITE_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.DAMAGE_ARTHROPODS, BANE_OF_ARTHROPODS_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.SHARPNESS, SHARPNESS_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.SMITE, SMITE_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.BANE_OF_ARTHROPODS, BANE_OF_ARTHROPODS_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.FIRE_ASPECT, FIRE_ASPECT_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.KNOCKBACK, KNOCKBACK_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.LOOT_BONUS_MOBS, LOOTING_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.LOOTING, LOOTING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.SWEEPING_EDGE, SWEEPING_EDGE_LEVEL);
 
         MAX_ENCHANT_LEVELS.put(Enchantment.IMPALING, IMPALING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.RIPTIDE, RIPTIDE_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.LOYALTY, LOYALTY_LEVEL);
 
-        MAX_ENCHANT_LEVELS.put(Enchantment.ARROW_DAMAGE, POWER_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.ARROW_FIRE, FLAME_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.ARROW_KNOCKBACK, PUNCH_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.ARROW_INFINITE, INFINITY_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.POWER, POWER_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.FLAME, FLAME_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.PUNCH, PUNCH_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.INFINITY, INFINITY_LEVEL);
 
         MAX_ENCHANT_LEVELS.put(Enchantment.PIERCING, PIERCING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.QUICK_CHARGE, QUICK_CHARGE_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.MULTISHOT, MULTISHOT_LEVEL);
 
-        MAX_ENCHANT_LEVELS.put(Enchantment.DIG_SPEED, EFFICIENCY_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.LOOT_BONUS_BLOCKS, FORTUNE_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.EFFICIENCY, EFFICIENCY_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.FORTUNE, FORTUNE_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.SILK_TOUCH, SILK_TOUCH_LEVEL);
 
         MAX_ENCHANT_LEVELS.put(Enchantment.LURE, LURE_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.LUCK, LUCK_OF_THE_SEA_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.LUCK_OF_THE_SEA, LUCK_OF_THE_SEA_LEVEL);
 
-        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION_ENVIRONMENTAL, PROTECTION_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION_FIRE, FIRE_PROTECTION_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION_PROJECTILE, PROJECTILE_PROTECTION_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION_EXPLOSIONS, BLAST_PROTECTION_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION_FALL, FEATHER_FALLING_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.PROTECTION, PROTECTION_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.FIRE_PROTECTION, FIRE_PROTECTION_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.PROJECTILE_PROTECTION, PROJECTILE_PROTECTION_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.BLAST_PROTECTION, BLAST_PROTECTION_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.FEATHER_FALLING, FEATHER_FALLING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.THORNS, THORNS_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.SOUL_SPEED, SOUL_SPEED_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.SWIFT_SNEAK, SWIFT_SNEAK_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.DEPTH_STRIDER, DEPTH_STRIDER_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.OXYGEN, RESPIRATION_LEVEL);
-        MAX_ENCHANT_LEVELS.put(Enchantment.WATER_WORKER, AQUA_AFFINITY_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.RESPIRATION, RESPIRATION_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.AQUA_AFFINITY, AQUA_AFFINITY_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.FROST_WALKER, FROST_WALKER_LEVEL);
 
-        MAX_ENCHANT_LEVELS.put(Enchantment.DURABILITY, UNBREAKING_LEVEL);
+        MAX_ENCHANT_LEVELS.put(Enchantment.UNBREAKING, UNBREAKING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.MENDING, MENDING_LEVEL);
 
         MAX_ENCHANT_LEVELS.put(Enchantment.BINDING_CURSE, CURSE_OF_BINDING_LEVEL);
         MAX_ENCHANT_LEVELS.put(Enchantment.VANISHING_CURSE, CURSE_OF_VANISHING_LEVEL);
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
-                Enchantment.DAMAGE_ALL,
-                Enchantment.DAMAGE_UNDEAD,
-                Enchantment.DAMAGE_ARTHROPODS,
+                Enchantment.SHARPNESS,
+                Enchantment.SMITE,
+                Enchantment.BANE_OF_ARTHROPODS,
         });
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
                 Enchantment.MENDING,
-                Enchantment.ARROW_INFINITE,
+                Enchantment.INFINITY,
         });
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
@@ -133,15 +133,15 @@ class EnchantUtils {
         });
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
-                Enchantment.LOOT_BONUS_BLOCKS,
+                Enchantment.FORTUNE,
                 Enchantment.SILK_TOUCH,
         });
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
-                Enchantment.PROTECTION_ENVIRONMENTAL,
-                Enchantment.PROTECTION_FIRE,
-                Enchantment.PROTECTION_PROJECTILE,
-                Enchantment.PROTECTION_EXPLOSIONS,
+                Enchantment.PROTECTION,
+                Enchantment.FIRE_PROTECTION,
+                Enchantment.PROJECTILE_PROTECTION,
+                Enchantment.BLAST_PROTECTION,
         });
 
         INCOMPATIBLE_ENCHANTMENTS.add(new Enchantment[] {
