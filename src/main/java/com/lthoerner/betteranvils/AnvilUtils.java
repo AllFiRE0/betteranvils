@@ -400,7 +400,7 @@ class AnvilUtils {
                 return DamageableMaterial.DIAMOND;
             case NETHERITE_INGOT:
                 return DamageableMaterial.NETHERITE;
-            case SCUTE:
+            case TURTLE_SCUTE:
                 return DamageableMaterial.SCUTE;
             case PHANTOM_MEMBRANE:
                 return DamageableMaterial.PHANTOM_MEMBRANE;
